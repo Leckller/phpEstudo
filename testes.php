@@ -12,8 +12,15 @@ $arr = Array('puts', 'caracoles', 'eita');
 echo (($i >= count($arr))) ?  "vish cabo \n" :  $arr[$i] . " irmao esse é o index " . $i . "\n";
 }   
 */
-$i = 0;
+
+/**
+ $i = 0;
 while ($i < count($arr) + 5) {
   echo (($i >= count($arr))) ?  "vish cabo \n" :  $arr[$i] . " irmao esse é o index " . $i . "\n";
   $i++;
   }
+ */
+
+ foreach($arr as $palavra) {
+  echo $palavra . "\n";
+}
