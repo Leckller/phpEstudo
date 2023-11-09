@@ -1,6 +1,19 @@
 <?php
 
-$n1 = 5;
-$n2 = 3;
+$arr = Array('puts', 'caracoles', 'eita');
 
-echo "caralho de soma pica: ", $n1 + $n2, "\n";
+/**
+ for ($i = 0 ; $i < count($arr) + 5; $i++) {
+   if($i >= count($arr)){
+    echo "vish cabo" . "\n";
+  } else {
+    echo $arr[$i] . " irmao esse é o index ", $i, "\n";
+  }
+echo (($i >= count($arr))) ?  "vish cabo \n" :  $arr[$i] . " irmao esse é o index " . $i . "\n";
+}   
+*/
+$i = 0;
+while ($i < count($arr) + 5) {
+  echo (($i >= count($arr))) ?  "vish cabo \n" :  $arr[$i] . " irmao esse é o index " . $i . "\n";
+  $i++;
+  }
